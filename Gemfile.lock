@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    total_voice (0.0.3)
+    TotalVoice (0.0.3)
 
 GEM
   remote: https://rubygems.org/
@@ -16,11 +16,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  TotalVoice!
   bundler (~> 1.16)
   httparty (~> 0.16)
   minitest (~> 5.0)
   rake (~> 10.0)
-  total_voice!
 
 BUNDLED WITH
    1.16.1
