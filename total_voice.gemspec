@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "total_voice/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "TotalVoice"
+  spec.name          = "total_voice"
   spec.version       = TotalVoice::VERSION
   spec.authors       = ["Bruno Frank"]
   spec.email         = ["bfscordeiro@gmail.com"]
 
-  spec.summary       = %q{Gem para acesso as API's da TotalVoice}
+  spec.summary       = %q{Gem para acesso as API's da TotalVoice, esta gem foi renomeada para total_voice https://rubygems.org/gems/total_voice}
   spec.homepage      = "https://github.com/brunofrank/totalvoice-ruby"
   spec.license       = "MIT"
 
