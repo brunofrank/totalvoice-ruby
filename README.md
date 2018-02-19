@@ -31,11 +31,18 @@ Or just set the env var in your server
 TOTAL_VOICE_ACCESS_TOKEN='ACCESS_TOKEN'
 
 
-How to Send an audio.
+How to send an audio.
 
 ```ruby
   audio = TotalVoice::Audio.new
   audio.send('5555555', 'https://github.com/brunofrank/totalvoice-ruby/tree/master/test/assets/piano.mp3')
+```
+
+How to send a SMS.
+
+```ruby
+  sms = TotalVoice::SMS.new
+  sms.send('5555555', 'SMS Text')
 ```
 
 ## Development
