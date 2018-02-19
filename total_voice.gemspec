@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "total_voice/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "total_voice"
+  spec.name          = "TotalVoice"
   spec.version       = TotalVoice::VERSION
   spec.authors       = ["Bruno Frank"]
   spec.email         = ["bfscordeiro@gmail.com"]
